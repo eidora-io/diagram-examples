@@ -1,0 +1,1 @@
+Hotel reservation system: guests make reservations; a reservation can include one or more rooms, each room has a room type with a nightly rate; each reservation can have payments.

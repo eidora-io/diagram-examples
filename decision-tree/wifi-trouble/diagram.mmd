@@ -1,0 +1,13 @@
+flowchart TD
+  Q1["Can other devices get online?"] -->|"No"| Q2["Restart the router. Wi-Fi works again?"]
+  Q1 -->|"Yes"| Q3["Make phone forget network and reconnect. Works?"]
+  Q2 -->|"Yes"| O1(["Issue resolved"])
+  Q2 -->|"No"| O2(["Call internet provider"])
+  Q3 -->|"Yes"| O3(["Issue resolved"])
+  Q3 -->|"No"| Q4["Restart the phone. Works?"]
+  Q4 -->|"Yes"| O4(["Issue resolved"])
+  Q4 -->|"No"| O5(["Contact phone support"])
+  classDef question fill:#E6F0EB,stroke:#1B5E3B,stroke-width:1.5px,color:#0C0B09
+  classDef outcome fill:#1B5E3B,stroke:#1B5E3B,color:#FFFFFF
+  class Q1,Q2,Q3,Q4 question
+  class O1,O2,O3,O4,O5 outcome

@@ -1,0 +1,85 @@
+# Diagram Examples
+
+52 diagram examples you can read, copy and adapt: ER diagrams, concept maps, org charts, Venn diagrams, flowcharts, decision trees and UML diagrams. Each one comes with the plain text it was made from, so you can paste that text into a diagram tool, change a line, and draw your own version.
+
+All examples were made by us with the diagram tools on [Eidora](https://www.eidora.io). Names of people and companies in the examples are fictional.
+
+## What is in each example
+
+Every example has its own folder with:
+
+- `README.md`: what the diagram is, when it is useful, and its input text;
+- the source: `source.txt` (the text it was made from, or `source.sql` for the SQL example), plus `diagram.mmd` for the Mermaid examples;
+- `preview.webp`: the picture of the finished diagram. 9 examples are Mermaid-only and have no picture file; GitHub draws them from the source in their `README.md`.
+
+## Examples
+
+| Example | Type | Preview | Details |
+| --- | --- | --- | --- |
+| Simple ER Diagram Example: Authors, Books and Publishers | ER diagram | <a href="er-diagram/author-book-publisher/"><img src="er-diagram/author-book-publisher/preview.webp" alt="Simple ER diagram example: AUTHOR and PUBLISHER each linked one-to-many to BOOK, which holds author_id and publisher_id" width="220"></a> | [Open](er-diagram/author-book-publisher/) |
+| Online Store ER Diagram | ER diagram | <a href="er-diagram/online-store/"><img src="er-diagram/online-store/preview.webp" alt="Online store ER diagram example: customers, orders, order items, products, categories and payments, with one payment per order" width="220"></a> | [Open](er-diagram/online-store/) |
+| Library Management System ER Diagram | ER diagram | <a href="er-diagram/library-management-system/"><img src="er-diagram/library-management-system/preview.webp" alt="Library management system ER diagram example: books, authors, book copies, members, loans and fines, with a BOOK_AUTHOR table for many authors" width="220"></a> | [Open](er-diagram/library-management-system/) |
+| University ER Diagram: Students, Courses and Enrollments | ER diagram | <a href="er-diagram/university/"><img src="er-diagram/university/preview.webp" alt="University ER diagram example: students enroll in courses through an ENROLLMENT entity with semester and grade; courses belong to departments and are taught by instructors" width="220"></a> | [Open](er-diagram/university/) |
+| Hospital Management System ER Diagram | ER diagram | <a href="er-diagram/hospital-management-system/"><img src="er-diagram/hospital-management-system/preview.webp" alt="Hospital management system ER diagram example: departments, doctors, patients, appointments, prescriptions, rooms and admissions" width="220"></a> | [Open](er-diagram/hospital-management-system/) |
+| Hotel Reservation System ER Diagram | ER diagram | <a href="er-diagram/hotel-reservation-system/"><img src="er-diagram/hotel-reservation-system/preview.webp" alt="Hotel reservation system ER diagram example: guests, reservations, rooms, room types with nightly rates and payments" width="220"></a> | [Open](er-diagram/hotel-reservation-system/) |
+| Bank ER Diagram With Joint Accounts | ER diagram | <a href="er-diagram/bank/"><img src="er-diagram/bank/preview.webp" alt="Bank ER diagram example: branches, customers, accounts held through ACCOUNT_CUSTOMER for joint accounts, transactions and loans" width="220"></a> | [Open](er-diagram/bank/) |
+| Airline Reservation System ER Diagram | ER diagram | <a href="er-diagram/airline-reservation-system/"><img src="er-diagram/airline-reservation-system/preview.webp" alt="Airline reservation system ER diagram example: airports, flights with departure and arrival airports, aircraft, seats, passengers and bookings" width="220"></a> | [Open](er-diagram/airline-reservation-system/) |
+| Movie Ticket Booking ER Diagram | ER diagram | <a href="er-diagram/movie-ticket-booking/"><img src="er-diagram/movie-ticket-booking/preview.webp" alt="Movie ticket booking ER diagram example: cinemas, halls, seats, movies, showtimes, customers, bookings and booked seats" width="220"></a> | [Open](er-diagram/movie-ticket-booking/) |
+| Social Media App ER Diagram | ER diagram | <a href="er-diagram/social-media/"><img src="er-diagram/social-media/preview.webp" alt="Social media ER diagram example: users, posts, comments, post likes and a USER_FOLLOW table for users following users" width="220"></a> | [Open](er-diagram/social-media/) |
+| Company ER Diagram: Employees, Departments and Projects | ER diagram | <a href="er-diagram/company/"><img src="er-diagram/company/preview.webp" alt="Company ER diagram example: employees, departments with a manager, projects, hours on each project and dependents" width="220"></a> | [Open](er-diagram/company/) |
+| ER Diagram From SQL: a Blog Database | ER diagram | <a href="er-diagram/blog-database-sql/"><img src="er-diagram/blog-database-sql/preview.webp" alt="ER diagram example made from SQL CREATE TABLE statements: authors, posts, tags, a POST_TAG table with a composite key, and comments" width="220"></a> | [Open](er-diagram/blog-database-sql/) |
+| Photosynthesis Concept Map | Concept map | <a href="concept-map/photosynthesis/"><img src="concept-map/photosynthesis/preview.webp" alt="Photosynthesis concept map example: what photosynthesis needs and produces, where it happens, and how chlorophyll and stomata connect them" width="220"></a> | [Open](concept-map/photosynthesis/) |
+| Plate Tectonics Concept Map | Concept map | <a href="concept-map/plate-tectonics/"><img src="concept-map/plate-tectonics/preview.webp" alt="Plate tectonics concept map example: mantle convection moves tectonic plates, which meet at divergent, convergent and transform boundaries with their results" width="220"></a> | [Open](concept-map/plate-tectonics/) |
+| Animal Cell Concept Map | Concept map | <a href="concept-map/animal-cell/"><img src="concept-map/animal-cell/preview.webp" alt="Animal cell concept map example: the cell membrane, cytoplasm, nucleus and organelles, with the nucleolus producing ribosomes" width="220"></a> | [Open](concept-map/animal-cell/) |
+| Ecosystem Concept Map From a List of Terms | Concept map | <a href="concept-map/ecosystem/"><img src="concept-map/ecosystem/preview.webp" alt="Ecosystem concept map example made from ten terms: producers, consumers and decomposers, the sun, the food chain, herbivores, carnivores, nutrients and energy" width="220"></a> | [Open](concept-map/ecosystem/) |
+| Digestive System Concept Map From Notes | Concept map | <a href="concept-map/digestion/"><img src="concept-map/digestion/preview.webp" alt="Digestive system concept map example made from a student's notes: mouth, esophagus, stomach, small intestine and large intestine, with what each contains and does" width="220"></a> | [Open](concept-map/digestion/) |
+| Causes of World War I Concept Map | Concept map | <a href="concept-map/ww1/"><img src="concept-map/ww1/preview.webp" alt="Causes of World War I concept map example: militarism, the alliance system, imperialism and nationalism, the assassination of Archduke Franz Ferdinand and mobilization" width="220"></a> | [Open](concept-map/ww1/) |
+| Climate Change Concept Map | Concept map | <a href="concept-map/climate-change/"><img src="concept-map/climate-change/preview.webp" alt="Climate change concept map example grouped into causes, effects and solutions, with links between renewable energy and fossil fuels and between agreements and greenhouse gases" width="220"></a> | [Open](concept-map/climate-change/) |
+| Essay Plan Concept Map | Concept map | <a href="concept-map/essay/"><img src="concept-map/essay/preview.webp" alt="Essay plan concept map example on social media and teenagers: heavy use linked to anxiety and poor sleep, encouraged by algorithms and reduced by limits set by parents and schools" width="220"></a> | [Open](concept-map/essay/) |
+| Business Concept Map: a Meal-Kit Startup | Concept map | <a href="concept-map/meal-kit/"><img src="concept-map/meal-kit/preview.webp" alt="Business concept map example for a meal-kit startup: customers, recipes, subscriptions, ingredients from local farms, the kitchen and the delivery partner" width="220"></a> | [Open](concept-map/meal-kit/) |
+| Small Business Org Chart | Org chart | <a href="org-chart/bakery/"><img src="org-chart/bakery/preview.webp" alt="Small business org chart example: a bakery owner with a head baker, a shop manager and a part-time bookkeeper reporting to her" width="220"></a> | [Open](org-chart/bakery/) |
+| Startup Org Chart | Org chart | <a href="org-chart/startup/"><img src="org-chart/startup/preview.webp" alt="Startup org chart example: a CEO with a CTO and a CFO reporting to her and an executive assistant on a dashed line" width="220"></a> | [Open](org-chart/startup/) |
+| Company Org Chart From a List | Org chart | <a href="org-chart/list/"><img src="org-chart/list/preview.webp" alt="Hierarchical company org chart made from an indented list: a CEO, two vice presidents with their teams, and an HR manager" width="220"></a> | [Open](org-chart/list/) |
+| Functional Org Chart | Org chart | <a href="org-chart/functional/"><img src="org-chart/functional/preview.webp" alt="Functional org chart example for a software company: a CEO over engineering, product, sales, marketing and finance" width="220"></a> | [Open](org-chart/functional/) |
+| Divisional Org Chart | Org chart | <a href="org-chart/divisional/"><img src="org-chart/divisional/preview.webp" alt="Divisional org chart example by region: a CEO over presidents for North America, Europe and Asia Pacific, each with a sales director and an operations director" width="220"></a> | [Open](org-chart/divisional/) |
+| Flat Org Chart | Org chart | <a href="org-chart/flat/"><img src="org-chart/flat/preview.webp" alt="Flat org chart example: a founder with a designer, two engineers, a marketer and a customer support lead reporting directly to her" width="220"></a> | [Open](org-chart/flat/) |
+| Hospital Org Chart | Org chart | <a href="org-chart/hospital/"><img src="org-chart/hospital/preview.webp" alt="Hospital org chart example: a hospital director over a chief medical officer, a chief operating officer and a chief nursing officer, with their departments" width="220"></a> | [Open](org-chart/hospital/) |
+| School Org Chart | Org chart | <a href="org-chart/school/"><img src="org-chart/school/preview.webp" alt="School org chart example: a principal with vice principals for academics and student affairs, four department heads, two counselors and a nurse" width="220"></a> | [Open](org-chart/school/) |
+| Restaurant Org Chart | Org chart | <a href="org-chart/restaurant/"><img src="org-chart/restaurant/preview.webp" alt="Restaurant org chart example: a general manager over a head chef with the kitchen team and a front-of-house manager with the dining room team" width="220"></a> | [Open](org-chart/restaurant/) |
+| Hotel Org Chart | Org chart | <a href="org-chart/hotel/"><img src="org-chart/hotel/preview.webp" alt="Hotel org chart example: a general manager over the rooms division, food and beverage, sales and engineering" width="220"></a> | [Open](org-chart/hotel/) |
+| Nonprofit Org Chart | Org chart | <a href="org-chart/nonprofit/"><img src="org-chart/nonprofit/preview.webp" alt="Nonprofit org chart example: a board of directors over an executive director, with program, development and finance teams and an executive assistant" width="220"></a> | [Open](org-chart/nonprofit/) |
+| Sales Team Org Chart | Org chart | <a href="org-chart/sales/"><img src="org-chart/sales/preview.webp" alt="Sales team org chart example: a VP of Sales over a sales manager with seven account executives in one box, and a sales operations analyst" width="220"></a> | [Open](org-chart/sales/) |
+| Frogs vs Toads Venn Diagram | Venn diagram | <a href="venn-diagram/frogs-toads/"><img src="venn-diagram/frogs-toads/preview.webp" alt="Venn diagram example: frogs vs toads, with smooth moist skin and long legs for frogs, warty dry skin and shorter legs for toads, and amphibians, metamorphosis and carnivorous in the overlap" width="220"></a> | [Open](venn-diagram/frogs-toads/) |
+| Mitosis vs Meiosis Venn Diagram | Venn diagram | <a href="venn-diagram/mitosis-meiosis/"><img src="venn-diagram/mitosis-meiosis/preview.webp" alt="Venn diagram example: mitosis vs meiosis, with one division and two identical cells for mitosis, two divisions and four different cells for meiosis, and DNA replication and the four phases in the overlap" width="220"></a> | [Open](venn-diagram/mitosis-meiosis/) |
+| Viruses vs Bacteria Venn Diagram | Venn diagram | <a href="venn-diagram/viruses-bacteria/"><img src="venn-diagram/viruses-bacteria/preview.webp" alt="Venn diagram example: viruses vs bacteria, with non-cellular and needing a host for viruses, cellular and binary fission for bacteria, and causing disease and microscopic in the overlap" width="220"></a> | [Open](venn-diagram/viruses-bacteria/) |
+| Plants, Animals and Fungi: a Three-Circle Venn Diagram | Venn diagram | <a href="venn-diagram/plants-animals-fungi/"><img src="venn-diagram/plants-animals-fungi/preview.webp" alt="Three-circle Venn diagram example: plants, animals and fungi, with cell walls and being stationary shared by plants and fungi, feeding on other organisms shared by animals and fungi, and eukaryotic cells in the middle" width="220"></a> | [Open](venn-diagram/plants-animals-fungi/) |
+| Mercury, Venus and Earth Venn Diagram | Venn diagram | <a href="venn-diagram/mercury-venus-earth/"><img src="venn-diagram/mercury-venus-earth/preview.webp" alt="Three-circle Venn diagram example: Mercury, Venus and Earth, with no moons shared by Mercury and Venus, similar size shared by Venus and Earth, and rocky surface and inner planet in the middle" width="220"></a> | [Open](venn-diagram/mercury-venus-earth/) |
+| Math Venn Diagram: Even, Prime and Multiples of 3 | Venn diagram | <a href="venn-diagram/even-prime-multiples-of-3/"><img src="venn-diagram/even-prime-multiples-of-3/preview.webp" alt="Math Venn diagram example: the numbers 1 to 20 sorted into even numbers, prime numbers and multiples of 3, with 2 in even and prime, 6, 12 and 18 in even and multiples of 3, 3 in prime and multiples of 3, and an empty middle" width="220"></a> | [Open](venn-diagram/even-prime-multiples-of-3/) |
+| World War I vs World War II Venn Diagram | Venn diagram | <a href="venn-diagram/world-war-1-vs-2/"><img src="venn-diagram/world-war-1-vs-2/preview.webp" alt="Venn diagram example: World War I vs World War II, with trench warfare and 1914 to 1918 for WWI, atomic bombs and 1939 to 1945 for WWII, and tanks, airplanes and millions of casualties in the overlap" width="220"></a> | [Open](venn-diagram/world-war-1-vs-2/) |
+| Renting vs Buying a Home Venn Diagram | Venn diagram | <a href="venn-diagram/renting-vs-buying/"><img src="venn-diagram/renting-vs-buying/preview.webp" alt="Venn diagram example: renting vs buying a home, with rent payments and a lease for renting, mortgage payments, home equity and property taxes for buying, and monthly housing costs and an application process in the overlap" width="220"></a> | [Open](venn-diagram/renting-vs-buying/) |
+| Two Lists: Who Is in Both Clubs? | Venn diagram | <a href="venn-diagram/club-sign-ups/"><img src="venn-diagram/club-sign-ups/preview.webp" alt="Venn diagram example made from two lists: chess club and drama club members, with Chloe and Emma in both clubs" width="220"></a> | [Open](venn-diagram/club-sign-ups/) |
+| Three Lists: Red, Sweet and Round Fruits | Venn diagram | <a href="venn-diagram/fruit-lists/"><img src="venn-diagram/fruit-lists/preview.webp" alt="Three-circle Venn diagram example made from three lists of fruits: red, sweet and round, with apple and cherry in all three" width="220"></a> | [Open](venn-diagram/fruit-lists/) |
+| Signup Flowchart | Flowchart | _Mermaid, rendered by GitHub_ | [Open](flowchart/signup-flow/) |
+| Refund Request Flowchart | Flowchart | _Mermaid, rendered by GitHub_ | [Open](flowchart/refund-request/) |
+| Bug Triage Flowchart | Flowchart | _Mermaid, rendered by GitHub_ | [Open](flowchart/bug-triage/) |
+| Job Offer Decision Tree | Decision tree | _Mermaid, rendered by GitHub_ | [Open](decision-tree/job-offer/) |
+| Product Launch Decision Tree | Decision tree | _Mermaid, rendered by GitHub_ | [Open](decision-tree/product-launch/) |
+| Wi-Fi Troubleshooting Decision Tree | Decision tree | _Mermaid, rendered by GitHub_ | [Open](decision-tree/wifi-trouble/) |
+| Library Class Diagram | UML diagram | _Mermaid, rendered by GitHub_ | [Open](uml-diagram/library-classes/) |
+| Login Sequence Diagram | UML diagram | _Mermaid, rendered by GitHub_ | [Open](uml-diagram/login-sequence/) |
+| Order State Diagram | UML diagram | _Mermaid, rendered by GitHub_ | [Open](uml-diagram/order-states/) |
+
+## Counts
+
+- ER diagram: 12
+- Concept map: 9
+- Org chart: 12
+- Venn diagram: 10
+- Flowchart: 3
+- Decision tree: 3
+- UML diagram: 3
+- Total: 52 (43 with a preview image, 9 Mermaid-only)
+
+## License
+
+TODO：由主人决定

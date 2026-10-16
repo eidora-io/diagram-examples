@@ -1,0 +1,10 @@
+stateDiagram-v2
+    [*] --> Pending
+    Pending --> Paid: payment succeeds
+    Pending --> Cancelled: customer cancels
+    Paid --> Shipped: order shipped
+    Shipped --> Delivered: order delivered
+    Delivered --> Returned: returned within 30 days
+    Delivered --> [*]
+    Cancelled --> [*]
+    Returned --> [*]

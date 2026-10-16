@@ -1,0 +1,1 @@
+Functional org chart for a software company. The CEO leads five departments: Engineering (VP of Engineering, with a backend team lead and a frontend team lead), Product (Head of Product), Sales (VP of Sales, with a sales team lead), Marketing (Marketing Director, with a content manager and a growth manager) and Finance (CFO, with an accountant).

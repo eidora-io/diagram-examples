@@ -1,0 +1,1 @@
+Should I accept the job offer? If the salary is higher than my current job, check whether it is remote. Remote: accept. Not remote: accept only if the commute is under 45 minutes, otherwise decline. If the salary is not higher, decline, unless the role is a promotion; then negotiate the salary.

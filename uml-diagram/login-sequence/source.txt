@@ -1,0 +1,1 @@
+Sequence diagram for login: the user enters email and password in the app, the app sends them to the auth server, and the auth server checks the database. If the password is right, it returns a token and the app shows the dashboard; if not, it returns an error and the app shows "wrong password".

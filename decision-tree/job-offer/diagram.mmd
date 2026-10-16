@@ -1,0 +1,13 @@
+flowchart TD
+  Q1["Is the salary higher than current job?"] -->|"Yes"| Q2["Is it remote?"]
+  Q1 -->|"No"| Q4["Is it a promotion?"]
+  Q2 -->|"Yes"| O1(["Accept"])
+  Q2 -->|"No"| Q3["Is the commute under 45 minutes?"]
+  Q4 -->|"Yes"| O4(["Negotiate"])
+  Q4 -->|"No"| O5(["Decline"])
+  Q3 -->|"Yes"| O2(["Accept"])
+  Q3 -->|"No"| O3(["Decline"])
+  classDef question fill:#E6F0EB,stroke:#1B5E3B,stroke-width:1.5px,color:#0C0B09
+  classDef outcome fill:#1B5E3B,stroke:#1B5E3B,color:#FFFFFF
+  class Q1,Q2,Q3,Q4 question
+  class O1,O2,O3,O4,O5 outcome

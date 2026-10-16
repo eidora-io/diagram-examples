@@ -1,0 +1,9 @@
+flowchart TD
+  Q1["Launch the new product?"] -->|"Yes"| Q2["Demand is strong?"]
+  Q1 -->|"No"| O3(["Keep current, $0 extra"])
+  Q2 -->|"Strong 60%"| O1(["Profit $500k"])
+  Q2 -->|"Weak 40%"| O2(["Loss $200k"])
+  classDef question fill:#E6F0EB,stroke:#1B5E3B,stroke-width:1.5px,color:#0C0B09
+  classDef outcome fill:#1B5E3B,stroke:#1B5E3B,color:#FFFFFF
+  class Q1,Q2 question
+  class O1,O2,O3 outcome

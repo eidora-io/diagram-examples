@@ -1,0 +1,22 @@
+flowchart TD
+A["User enters email and password"]
+B{"Email already exists?"}
+C["Show 'email taken'"]
+D["Create account"]
+E["Send verification email"]
+F{"User verifies within 24 hours?"}
+G["Go to onboarding"]
+H["Send reminder"]
+I{"User verifies within 48 hours?"}
+J["Expire account"]
+
+A --> B
+B -->|"Yes"| C
+B -->|"No"| D
+D --> E
+E --> F
+F -->|"Yes"| G
+F -->|"No"| H
+H --> I
+I -->|"Yes"| G
+I -->|"No"| J

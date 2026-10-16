@@ -1,0 +1,1 @@
+Movie ticket booking: a cinema has several halls, each hall has seats. A showtime is one movie in one hall at a time. A customer makes a booking for a showtime and books one or more seats.

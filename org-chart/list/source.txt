@@ -1,0 +1,8 @@
+CEO - Jane Doe
+  VP Sales - Mark Ellis
+    Sales Manager East - Ann Lee
+    Sales Manager West - Bob Kim
+  VP Engineering - Linus Berg
+    Backend team: 4 engineers
+    Frontend team: 3 engineers
+  HR Manager - Grace Hall

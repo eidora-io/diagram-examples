@@ -1,0 +1,34 @@
+classDiagram
+class Library {
+  +String name
+  +String address
+  +addBook(Book book) void
+  +removeBook(Book book) void
+}
+class Book {
+  +String title
+  +String author
+  +String isbn
+}
+class Member {
+  +String name
+  +String memberId
+  +borrowBook(Book book) boolean
+  +returnBook(Book book) boolean
+}
+class Loan {
+  +Date loanDate
+  +Date dueDate
+}
+class Staff {
+  +String name
+  +String staffId
+}
+class Librarian {
+  +addBook(Book book) void
+  +removeBook(Book book) void
+}
+Library o-- "*" Book
+Member "1" --> "0..5" Loan
+Loan "1" --> "1" Book
+Staff <|-- Librarian

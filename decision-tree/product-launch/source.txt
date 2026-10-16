@@ -1,0 +1,1 @@
+Should we launch the new product? If we launch, there is a 60% chance of strong demand (profit $500k) and a 40% chance of weak demand (loss $200k). If we do not launch, we keep the current product line and make $0 extra.

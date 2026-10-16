@@ -1,0 +1,1 @@
+Our startup: Maria Chen is the CEO. David Park (CTO) and Lena Ortiz (CFO) report to her, and Tom Ray is her executive assistant. Sam Lee, an engineering manager, reports to David and leads two developers. An accountant reports to Lena.

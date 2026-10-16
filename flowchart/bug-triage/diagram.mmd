@@ -1,0 +1,21 @@
+flowchart TD
+    A["A new bug report comes in"]
+    B{"Can we reproduce it?"}
+    C["Ask the reporter for steps and wait"]
+    D["Rate the severity"]
+    E{"Critical bug?"}
+    F["Hotfix today"]
+    G["Add to next sprint backlog"]
+    H["Close the report when the fix ships"]
+    Z(["End"])
+
+    A --> B
+    B -->|"No"| C
+    C --> Z
+    B -->|"Yes"| D
+    D --> E
+    E -->|"Yes"| F
+    E -->|"No"| G
+    F --> H
+    G --> H
+    H --> Z

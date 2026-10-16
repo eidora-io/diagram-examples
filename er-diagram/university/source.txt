@@ -1,0 +1,1 @@
+University database: students enroll in courses, and each enrollment records the semester and the grade. Each course belongs to one department and is taught by one instructor. Instructors work in one department.

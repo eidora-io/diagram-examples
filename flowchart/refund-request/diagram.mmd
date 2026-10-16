@@ -1,0 +1,19 @@
+flowchart TD
+A["Customer submits a request"]
+B["Support checks the order date"]
+C{"Order under 30 days?"}
+D["Approve and refund to the original card"]
+E["Send to a manager"]
+F{"Manager approves?"}
+G["Email the customer the decision"]
+Z(["End"])
+
+A --> B
+B --> C
+C -->|"Yes"| D
+C -->|"No"| E
+D --> G
+E --> F
+F -->|"Yes"| G
+F -->|"No"| G
+G --> Z

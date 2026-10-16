@@ -1,0 +1,3 @@
+Who signed up for which club?
+Chess club: Ava, Ben, Chloe, Daniel, Emma, Finn
+Drama club: Chloe, Emma, Grace, Henry, Isla

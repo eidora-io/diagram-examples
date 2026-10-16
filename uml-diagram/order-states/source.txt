@@ -1,0 +1,1 @@
+State diagram for an online order: it starts as Pending, becomes Paid when payment succeeds, or Cancelled if the customer cancels. Paid orders are Shipped, then Delivered. A delivered order can be Returned within 30 days.

@@ -1,0 +1,1 @@
+Phone will not connect to Wi-Fi. Can other devices get online? If not, restart the router: if the Wi-Fi works again, you are done; if not, call the internet provider. If other devices are online, make the phone forget the network and reconnect: if it works, you are done; if not, restart the phone, and if that does not help either, contact the phone maker's support.

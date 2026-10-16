@@ -1,0 +1,1 @@
+Library system class diagram: a Library holds many Books. A Book has a title, author and ISBN. A Member has a name and member ID and can borrow up to 5 books at a time; each Loan records one member, one book, the loan date and the due date. A Librarian is a kind of Staff and can add or remove books.

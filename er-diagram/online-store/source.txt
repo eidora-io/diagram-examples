@@ -1,0 +1,1 @@
+Online store: customers place orders. Each order has one or more order items, and each order item is one product with a quantity and a price. Products belong to a category. Each order has one payment.

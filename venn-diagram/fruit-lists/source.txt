@@ -1,0 +1,4 @@
+Which fruits are red, which are sweet, which are round?
+Red: apple, cherry, strawberry, tomato, raspberry
+Sweet: apple, cherry, strawberry, banana, mango, grape
+Round: apple, cherry, tomato, orange, grape, blueberry

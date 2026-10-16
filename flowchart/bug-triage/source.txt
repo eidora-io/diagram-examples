@@ -1,0 +1,1 @@
+Bug triage: a new bug report comes in. Can we reproduce it? If not, ask the reporter for steps and wait. If yes, rate the severity. Critical bugs get a hotfix today; the rest go to the next sprint backlog. Close the report when the fix ships.

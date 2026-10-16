@@ -1,0 +1,1 @@
+Social media app: users write posts, users comment on posts, users like posts, and users follow other users.

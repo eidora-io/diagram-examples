@@ -1,0 +1,1 @@
+Refund request: the customer submits a request and support checks the order date. Under 30 days: approve and refund to the original card. Over 30 days: send to a manager, who approves or declines with a reason. Email the customer the decision either way.

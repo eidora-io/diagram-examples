@@ -1,0 +1,1 @@
+Company database: each employee works in one department, and each department has one manager who is an employee. Employees work on projects, and we record the hours each employee works on each project. Each project is run by one department. Employees can have dependents.

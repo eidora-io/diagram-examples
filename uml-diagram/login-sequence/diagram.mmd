@@ -1,0 +1,17 @@
+sequenceDiagram
+actor U as User
+participant App as App
+participant Auth as Auth Server
+participant DB as Database
+
+U->>App: enter email and password
+App->>Auth: send email and password
+Auth->>DB: check credentials
+DB-->>Auth: credentials result
+alt password correct
+    Auth-->>App: return token
+    App-->>U: show dashboard
+else wrong password
+    Auth-->>App: return error
+    App-->>U: show wrong password
+end

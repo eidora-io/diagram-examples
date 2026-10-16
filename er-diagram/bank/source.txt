@@ -1,0 +1,1 @@
+Bank database: each branch holds many accounts and gives out loans. A customer can have several accounts, and an account can be held by more than one customer (joint accounts). Each account has many transactions (date, amount, type). Each loan is taken by one customer from one branch.

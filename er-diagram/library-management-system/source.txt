@@ -1,0 +1,1 @@
+Library management system: each book has one or more authors, and an author can write many books. The library holds several copies of each book. Members borrow copies; each loan records the loan date, the due date and the return date. A loan returned late can have one fine.

@@ -1,0 +1,1 @@
+Simple ER diagram: an author writes many books, and each book has exactly one publisher.
