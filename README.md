@@ -82,4 +82,4 @@ Every example has its own folder with:
 
 ## License
 
-TODO：由主人决定
+The diagrams, preview images and example texts are licensed under [CC BY 4.0](LICENSE): you can use and adapt them for any purpose, including commercial work, as long as you credit Eidora and link back to [www.eidora.io](https://www.eidora.io).
